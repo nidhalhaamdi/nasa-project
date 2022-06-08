@@ -1,5 +1,3 @@
-# nasa-project-cluster
+# nasa-project-MongoDB
 
-npm run deploy-cluster
-
-Then manage our processes using pm2..
+Creating a Mongo database..
