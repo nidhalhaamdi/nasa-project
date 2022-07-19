@@ -35,7 +35,7 @@ async function populateLaunches() {
     }
 
     const launchDocs = response.data.docs; // array of launches data
-    // Convert every launchDoc as it comes back from our response into a launch object that can be saver into our Database.
+    // Convert every launchDoc as it comes back from our response into a launch object that can be saved into our Database.
     for (const launchDoc of launchDocs) {
         const payloads = launchDoc['payloads'];
         const customers = payloads.flatMap((payload) => {
