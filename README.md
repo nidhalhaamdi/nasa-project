@@ -1,4 +1,6 @@
 # NASA Mission Control Project
+
+-- Node Version : 17.6.0 --
 ## Getting Started
 
 1. Ensure you have Node.js installed.
